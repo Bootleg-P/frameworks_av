@@ -142,7 +142,6 @@ private:
     uint32_t mPlayerFlags;
 
     MediaAnalyticsItem *mAnalyticsItem;
-    mutable Mutex mMetricsLock;
     uid_t mClientUid;
 
     bool mAtEOS;
